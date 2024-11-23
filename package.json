@@ -1,0 +1,21 @@
+{
+  "name": "webrtc-server",
+  "version": "0.0.1",
+  "description": "A Group call implementation using WebRTC, Socket.io and Node.js.",
+  "main": "src/app.js",
+  "dependencies": {
+    "express": "^4.21.0",
+    "socket.io": "^4.7.5",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "author": " ",
+  "license": "ISC"
+}
